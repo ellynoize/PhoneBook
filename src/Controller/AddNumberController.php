@@ -25,8 +25,6 @@ class AddNumberController extends AbstractController
 
         $name = $data->get('name');
         $phone = $data->get('phone');
-
-
         $node->setName($name);
         $node->setPhone($phone);
 

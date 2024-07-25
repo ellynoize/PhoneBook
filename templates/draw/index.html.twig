@@ -15,8 +15,13 @@
 
 <li>{{node.Name}} - {{node.Phone}}</li>
 
+
 {% endfor%}
 </ul>
+
+<form method='post' action='/delete'>
+<input type='text' name='namedel'>
+<input type='submit' value='Удалить запись'>
 
 </div>
 
